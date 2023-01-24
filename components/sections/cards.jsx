@@ -1,0 +1,34 @@
+import Card from "../interface/card"
+
+export default function Cards(){
+  return(
+    <section className="ml-[30px] scroll overflow-x-scroll mb-12 mt-10 pb-2">
+      <section className="ml-[6px] w-[110%] flex gap-[18px] shink-0">
+      <Card
+        image="imageA"
+        state="SOLD OUT"
+        rate="5.0"
+        times="6"
+        description="Life lessons with Katie Zaferes"
+        price="136"
+      />
+      <Card
+        image="imageB"
+        state="ONLINE"
+        rate="5.0"
+        times="30"
+        description="Learn wedding photography"
+        price="125"
+      />
+      <Card
+        image="imageC"
+        style="hidden"
+        rate="4.8"
+        times="2"
+        description="Group Mountain Biking"
+        price="50"
+      />
+    </section>
+    </section>
+  )
+}
