@@ -3,7 +3,7 @@ export default function Card(props) {
     <div className="w-[276px]">
       <div className="relative w-[fit-content]">
         <img className="w-[276px]" src={`/images/${props.image}.png`} alt="" />
-        <h2 className={`text-center bg-white py-1 w-[61px] absolute top-2 left-2 rounded-sm text-[10.24px] font-[400] ${props.style}`}>{props.state}</h2>
+        <h2 className={`text-center ${props.state === false ? "hidden" : ""} bg-white py-1 w-[61px] absolute top-2 left-2 rounded-sm text-[10.24px] font-[400]`}>{props.state}</h2>  
       </div>
       <div className="mt-[9px] text-[16px]">
         <div className="flex gap-[2px]">

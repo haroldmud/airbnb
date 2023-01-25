@@ -20,7 +20,7 @@ export default function Cards(){
     },
     {
       image:"imageC",
-      state:"",
+      state: false,
       style:"hidden",
       rate:"4.8",
       times:"2",
