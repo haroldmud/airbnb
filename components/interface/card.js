@@ -19,7 +19,7 @@ export default function Card(props) {
             </div>
             <div className="flex flex-col justify-center">
               <img className="w-[2px]" src="/icons/dot.png" alt="" />
-           </div>
+            </div>
            <div className="flex flex-col justify-center">
            <p>USA</p>
            </div>
